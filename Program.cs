@@ -27,37 +27,37 @@
                 {
                     Console.WriteLine($"Nyertél! +1 pontot kapsz");
                     JatekosPont++;
-                    Console.WriteLine($"Pontszámod: {JatekosPont}, \nBot pontszáma: {Botpont}");
+                    Console.WriteLine($"Pontszámod: {JatekosPont} \nBot pontszáma: {Botpont}");
                 }
                 else if (Bekert == "Papír" & (a == "Kő" || a == "Spock"))
                 {
                     Console.WriteLine($"Nyertél! +1 pontot kapsz");
                     JatekosPont++;
-                    Console.WriteLine($"Pontszámod: {JatekosPont}, \nBot pontszáma: {Botpont}");
+                    Console.WriteLine($"Pontszámod: {JatekosPont} \nBot pontszáma: {Botpont}");
                 }
                 else if (Bekert == "Kő" & (a == "Olló" || a == "Gyík"))
                 {
                     Console.WriteLine($"Nyertél! +1 pontot kapsz");
                     JatekosPont++;
-                    Console.WriteLine($"Pontszámod: {JatekosPont}, \nBot pontszáma: {Botpont}");
+                    Console.WriteLine($"Pontszámod: {JatekosPont} \nBot pontszáma: {Botpont}");
                 }
                 else if (Bekert == "Gyík" & (a == "Papír" || a == "Spock"))
                 {
                     Console.WriteLine($"Nyertél! +1 pontot kapsz");
                     JatekosPont++;
-                    Console.WriteLine($"Pontszámod: {JatekosPont}, \nBot pontszáma: {Botpont}");
+                    Console.WriteLine($"Pontszámod: {JatekosPont} \nBot pontszáma: {Botpont}");
                 }
                 else if (Bekert == "Spock" & (a == "Olló" || a == "Kő"))
                 {
                     Console.WriteLine($"Nyertél! +1 pontot kapsz");
                     JatekosPont++;
-                    Console.WriteLine($"Pontszámod: {JatekosPont}, \nBot pontszáma: {Botpont}");
+                    Console.WriteLine($"Pontszámod: {JatekosPont} \nBot pontszáma: {Botpont}");
                 }
                 else
                 {
                     Console.WriteLine($"Vesztettél! +1 pontot kap a bot");
                     Botpont++;
-                    Console.WriteLine($"Pontszámod: {JatekosPont}, \nBot pontszáma: {Botpont}");
+                    Console.WriteLine($"Pontszámod: {JatekosPont} \nBot pontszáma: {Botpont}");
                 }
 
                 if (Botpont - JatekosPont > 2 || JatekosPont - Botpont > 2)
@@ -66,7 +66,7 @@
                 }
 
             }
-            Console.WriteLine($"A te pontszámod: {JatekosPont}, {Botpont}");
+            Console.WriteLine($"A te pontszámod: {JatekosPont} \nA bot pontszáma: {Botpont}");
 
         }
     }
